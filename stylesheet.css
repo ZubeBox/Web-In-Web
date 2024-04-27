@@ -6,7 +6,7 @@
     url(fonts/SegoeUI.svg) format('svg');
 }
 *{
-    font-family: SegoeUI;
+    font-family: 'SegoeUI';
     margin: 0;
     padding: 5px;
     font-weight: lighter;
@@ -19,11 +19,12 @@
     border-radius: 10px;
     display: inline-block;
 }
-.inputweb {
+.inputweb, .webname, .title {
     background: none;
     outline: none;
     border: none;
     color: #fff;
+    font-family: 'SegoeUI';
 }
 .inputweb::placeholder {
     color: #fff;
