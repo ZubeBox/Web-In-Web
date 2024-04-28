@@ -4,7 +4,6 @@
     url(fonts/SegoeUI.woff) format('woff'),
     url(fonts/SegoeUI.woff2) format('woff2'),
     url(fonts/SegoeUI.svg) format('svg');
-    src: url(fonts/SegoeUI.eot) format('embedded-opentype');
     font-weight: normal;
 }
 *{
@@ -14,6 +13,8 @@
     font-weight: lighter;
 }
 .container {
+    display: flex;
+    justify-content: center; align-items: center;
     background: #333;
     outline-width: 2px;
     outline-color: #777;
@@ -41,6 +42,7 @@
     color: #fff;
 }
 .inputweb, .GO, .https, .www, .com, .httpsANDwwwANDcom {
+    border-width: 3px;
     border-radius: 5px;
     border: #ffffff;
 }
