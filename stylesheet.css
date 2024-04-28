@@ -25,9 +25,14 @@
 }
 .website {
     border-radius: 10px;
+    margin-left: auto; margin-right: auto;
+}
+.websiteopener {
+    transform: width 1s;
+}
+.websiteopener {
     width: 1600px;
     height: 700px;
-    margin-left: auto; margin-right: auto;
 }
 .inputweb, .webname, .title, .GO, .https, .www, .com, .httpsANDwwwANDcom {
     background: none;

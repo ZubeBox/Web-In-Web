@@ -7,6 +7,7 @@ function clickHttpsANDwwwANDcom() {
     document.getElementById('inputweb').value = "https://www." + document.getElementById('inputweb').value + ".com";
 };
 function GO() {
+    document.getElementById('website').classList.add = "websiteopener";
     document.getElementById('website').src = `${document.getElementById('inputweb').textContent}`;
     let govalue = 1;
 };
