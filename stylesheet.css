@@ -28,7 +28,7 @@
     margin-left: auto; margin-right: auto;
 }
 .websiteopener {
-    transform: width 1s;
+    transition: width 1s, height 1s;
 }
 .websiteopener {
     width: 1600px;
