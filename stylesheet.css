@@ -4,7 +4,6 @@
     url(fonts/SegoeUI.woff) format('woff'),
     url(fonts/SegoeUI.woff2) format('woff2'),
     url(fonts/SegoeUI.svg) format('svg');
-    font-style: normal;
     font-weight: normal;
 }
 *{
