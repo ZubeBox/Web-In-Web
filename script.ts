@@ -1,3 +1,4 @@
+let govalue = 0;
 
 function clickHttps() {
     document.getElementById('inputweb').value = "https://" + document.getElementById('inputweb').value;
@@ -6,7 +7,8 @@ function clickHttpsANDwwwANDcom() {
     document.getElementById('inputweb').value = "https://www." + document.getElementById('inputweb').value + ".com";
 };
 function GO() {
-    document.getElementById('website').src = `${document.getElementById('webname').textContent}`;
+    document.getElementById('website').src = `${document.getElementById('inputweb').textContent}`;
+    let govalue = 1;
 };
 function clickwww() {
     document.getElementById('inputweb').value = "www." + document.getElementById('inputweb').value;
@@ -16,6 +18,9 @@ function clickcom() {
 };
 setInterval(() => {
     document.getElementById('webname').textContent = `${document.getElementById('inputweb').value}`;
+    if(govalue = 1){
+        document.getElementById('webname').textContent = `${document.getElementById('website').src}`;
+    }
     if(document.getElementById('webname').textContent == ""){
         document.getElementById('webname').textContent = "Insert Any URL.";
     }
