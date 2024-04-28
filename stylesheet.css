@@ -34,6 +34,7 @@
     color: #fff;
     font-family: 'SegoeUI';
     border-radius: 0px;
+    margin-left: auto; margin-right: auto;
 }
 .inputweb::placeholder {
     color: #fff;
