@@ -19,7 +19,7 @@ function clickcom() {
 setInterval(() => {
     document.getElementById('webname').textContent = `${document.getElementById('inputweb').value}`;
     if(govalue = 1){
-        document.getElementById('webname').textContent = `${document.getElementById('website').src.textContent}`;
+        document.getElementById('webname').textContent = `${document.getElementById('website').src.value.textContent}`;
     }
     if(document.getElementById('webname').textContent == ""){
         document.getElementById('webname').textContent = "Insert Any URL.";
