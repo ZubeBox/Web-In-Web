@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'SegoeUI';
+    font-family: 'Segoe-UI';
     src: url(fonts/SegoeUI.ttf) format('truetype'),
     url(fonts/SegoeUI.woff) format('woff'),
     url(fonts/SegoeUI.woff2) format('woff2'),
@@ -7,7 +7,7 @@
     font-weight: normal;
 }
 *{
-    font-family: 'SegoeUI';
+    font-family: 'Segoe-UI';
     margin: 0;
     padding: 5px;
     font-weight: lighter;
@@ -19,7 +19,7 @@
     padding: 10px;
     border-radius: 10px;
     display: inline-block;
-    margin-left: auto; margin-right: 8px; margin-top: auto; margin-bottom: auto;
+    margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px;
 }
 .website {
     border-radius: 10px;
@@ -32,7 +32,7 @@
     outline: none;
     border: none;
     color: #fff;
-    font-family: 'SegoeUI';
+    font-family: 'Segoe-UI';
     border-radius: 0px;
     margin-left: auto; margin-right: auto;
 }
