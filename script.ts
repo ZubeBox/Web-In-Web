@@ -7,13 +7,9 @@ function clickHttpsANDwwwANDcom() {
     document.getElementById('inputweb').value = "https://www." + document.getElementById('inputweb').value + ".com";
 };
 function GO() {
-    
-    document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(function () {
-            document.getElementById('website').classList.add = "websiteopener";
-            document.getElementById('website').src = `${document.getElementById('inputweb').textContent}`;
-        }, 2000);
-    }, false);    
+
+    document.getElementById('website').classList.add = "websiteopener";
+    document.getElementById('website').src = `${document.getElementById('inputweb').textContent}`;
 
     let govalue = 1;
 };
