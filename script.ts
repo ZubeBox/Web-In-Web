@@ -25,7 +25,7 @@ setInterval(() => {
         webname = "Insert Any URL.";
     }
     if(govalue = 1){
-        webname = document.getElementById('website').src;
+        webname = document.getElementById('website').src.textContent;
     }
     document.getElementById('webname').textContent = webname;
 }, 1);
