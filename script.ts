@@ -20,8 +20,12 @@ function clickcom() {
     document.getElementById('inputweb').value = document.getElementById('inputweb').value + ".com";
 };
 setInterval(() => {
-    document.getElementById('webname').textContent = `${document.getElementById('inputweb').value}`;
+    webname = `${document.getElementById('inputweb').value}`;
     if(document.getElementById('webname').textContent == ""){
-        document.getElementById('webname').textContent = "Insert Any URL.";
+        webname = "Insert Any URL.";
     }
+    if(govalue = 1){
+        webname = document.getElementById('website').src;
+    }
+    document.getElementById('webname').textContent = webname;
 }, 1);
